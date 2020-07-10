@@ -1,0 +1,30 @@
+.even {
+    background-color: #cc2929;
+}
+
+.odd {
+    background-color: #2642d1;
+}
+
+.even,
+.odd {
+    color: white;
+}
+
+.even p,
+.odd p {
+    padding-top: 5%;
+}
+
+.even img,
+.odd img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 563px;
+    max-height: 441px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    ;
+}
