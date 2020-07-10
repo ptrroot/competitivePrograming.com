@@ -16,31 +16,16 @@
     height: 100%;
 }
 
-
-/*Efectos*/
-
-.menu .col-3:hover {
-    background-color: black;
-}
-
-.menu a:hover {
-    text-decoration: none;
-}
-
-.even,
-.odd {
+.content {
     margin-top: 10%;
 }
 
-.even p,
-.even h3,
-.odd p,
-.odd h3 {
+.content p,
+.content h3 {
     padding-top: 5%;
 }
 
-.even img,
-.odd img {
+.content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -66,6 +51,20 @@ footer .col-lg-4,
 footer .col-md-12 {
     margin-top: 5%;
 }
+
+
+/*Efectos*/
+
+.menu .col-3:hover {
+    background-color: black;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
+
+
+/*Media querys*/
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
