@@ -1,18 +1,12 @@
-.even {
-    background-color: #cc2929;
-}
-
-.odd {
-    background-color: #2642d1;
-}
-
 .even,
 .odd {
-    color: white;
+    margin-top: 10%;
 }
 
 .even p,
-.odd p {
+.even h3,
+.odd p,
+.odd h3 {
     padding-top: 5%;
 }
 
@@ -26,5 +20,4 @@
     max-height: 441px;
     padding-top: 5%;
     padding-bottom: 5%;
-    ;
 }
