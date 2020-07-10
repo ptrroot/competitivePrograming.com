@@ -1,0 +1,15 @@
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+
+/*Media querys*/
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    iframe {
+        width: 330px;
+        height: 250px;
+    }
+}
