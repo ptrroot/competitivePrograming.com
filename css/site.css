@@ -1,3 +1,32 @@
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu .col-3 {
+    background-color: gray;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Efectos*/
+
+.menu .col-3:hover {
+    background-color: black;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
+
 .even,
 .odd {
     margin-top: 10%;
@@ -20,4 +49,11 @@
     max-height: 441px;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu span {
+        display: none;
+    }
 }
